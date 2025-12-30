@@ -15,7 +15,7 @@ The calculator uses the formula:
    ```bash
    ./simple-interest.sh
 
-Minor typo fix
+
 
 
 
