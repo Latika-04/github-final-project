@@ -1,8 +1,2 @@
-curl -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/Latika-04/mcino-Introduction-to-Git-and-GitHub
-{
-  "full_name": "Latika-04/mcino-Introduction-to-Git-and-GitHub",
+$ curl -s https://api.github.com/repos/Latika-04/mcino-Introduction-to-Git-and-GitHub | grep '"fork"' | head -n 1
   "fork": true,
-  "parent": {
-    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
-  }
-}
