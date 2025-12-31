@@ -1,8 +1,12 @@
+C:\Users\mvsai\OneDrive\Documents\git\simple_interest_calculator>git commit -am "Fix typo in README"
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+[bug-fix-typo dedb905] Fix typo in README
+ 2 files changed, 110 insertions(+), 9 deletions(-) what shud i do with it
+
 git checkout main
 git merge bug-fix-typo
-Switched to branch 'main'
-Updating a1b2c3d..e4f5g6h
+Updating 5bd6a87..dedb905
 Fast-forward
- README.md | 2 +-
- 1 file changed, 1 insertion(+), 1 deletion(-)
-
+ README.md   |   2 +-
+ forked-repo | 117 +++++++++++++++++++++++++++++++++++++++++++++++++++++++-----
+ 2 files changed, 110 insertions(+), 9 deletions(-)
