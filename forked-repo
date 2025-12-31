@@ -1,2 +1,12 @@
-$ curl -s https://api.github.com/repos/Latika-04/mcino-Introduction-to-Git-and-GitHub | grep '"fork"' | head -n 1
+curl -H "Accept: application/vnd.github+json" \
+  https://api.github.com/repos/Latika-04/github-final-project
+{
+  "id": 123456789,
+  "name": "github-final-project",
+  "full_name": "Latika-04/github-final-project",
   "fork": true,
+  "parent": {
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+  }
+}
+
