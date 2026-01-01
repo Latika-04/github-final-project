@@ -1,4 +1,4 @@
-C:\Users\mvsai\OneDrive\Documents\git\github-final-project>curl -H "Accept: application/vnd.github+json" https://api.github.com/repos/Latika-04/github-final-project
+curl -H "Accept: application/vnd.github+json" https://api.github.com/repos/Latika-04/github-final-project
 {
   "id": 1125174245,
   "node_id": "R_kgDOQxDL5Q",
